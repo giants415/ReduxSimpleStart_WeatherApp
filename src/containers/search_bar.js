@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+import KEY from './config';
+
+const API_KEY = KEY;
+
 export default class SearchBar extends Component {
   constructor(props) {
     super(props);
