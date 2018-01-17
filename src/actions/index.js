@@ -10,7 +10,7 @@ const ROOT_URL = `http://samples.openweathermap.org/data/2.5/forecast?appid=${AP
 // as this variable is exported from here to be available for use in reducers
 export const FETCH_WEATHER = 'FETCH_WEATHER';
 
-export function fetchWeater(city) {
+export function fetchWeather(city) {
   //using us to make country code static
   const url = `${ROOT_URL}&q=${city},us`
   const request = axios.get(url);
