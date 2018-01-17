@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-import KEY from './config';
+import KEY from '../config';
 const API_KEY = KEY;
 // ES6 template string used below
 const ROOT_URL = `http://samples.openweathermap.org/data/2.5/forecast?appid=${API_KEY}`;
