@@ -8,7 +8,7 @@ class WeatherList extends Component {
       <tr key={name}>
         <td>{name}</td>
       </tr>
-    )
+    );
   }
 
 
